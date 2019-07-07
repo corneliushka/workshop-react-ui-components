@@ -60,6 +60,7 @@ function (_Component) {
   }, {
     key: "componentWillUnmount",
     value: function componentWillUnmount() {
+      // est appelée avant que le render() soit executé
       (0, _removeStyle["default"])(this.state.styleId);
     }
   }, {

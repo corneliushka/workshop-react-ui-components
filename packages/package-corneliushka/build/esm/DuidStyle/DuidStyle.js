@@ -42,6 +42,7 @@ function (_Component) {
   }, {
     key: "componentWillUnmount",
     value: function componentWillUnmount() {
+      // est appelée avant que le render() soit executé
       removeStyle(this.state.styleId);
     }
   }, {
